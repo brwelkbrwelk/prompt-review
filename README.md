@@ -9,7 +9,7 @@ Claude와 ChatGPT에서 프롬프트를 실행하기 전에 해석·모호성·�
 | Claude Code | [SKILL.md](claude/prompt-review/SKILL.md) | `prompt-review` 폴더를 스킬 경로에 복사 | 설치 후 직접 호출하는 스킬 명령 |
 | Claude 일반 대화 | [Claude 안내](claude/README.md) | 지침 본문을 대화 또는 프로젝트 지침에 등록 | 등록한 지침을 호출하는 텍스트 |
 | ChatGPT | [프로젝트·대화용 지침](chatgpt/INSTRUCTIONS.md) | 프로젝트 지침 또는 대화 첫 메시지에 붙여 넣기 | 이 저장소에서 정한 텍스트 호출 문구 |
-| ChatGPT 전체 대화 | [맞춤 지침용 축약본](chatgpt/CUSTOM_INSTRUCTIONS.md) | 설정의 맞춤 지침에 기존 내용과 병합 | 이 저장소에서 정한 텍스트 호출 문구 |
+| ChatGPT 여러 대화에 공통 적용 | [맞춤 지침용 축약본](chatgpt/CUSTOM_INSTRUCTIONS.md) | 설정의 맞춤 지침에 기존 내용과 병합 | 이 저장소에서 정한 텍스트 호출 문구 |
 
 **ChatGPT에 파일을 올리거나 지침을 붙여 넣는 것만으로 `/prompt-review`라는 네이티브 명령이 설치되지는 않습니다.** 입력창이 다른 명령을 제안하면 `프롬프트 검토해줘`라는 자연어 호출을 사용하세요. 제품·버전에 따라 별도 명령 확장 기능이 있을 수 있으나 이 패키지는 이를 설치하지 않습니다.
 
